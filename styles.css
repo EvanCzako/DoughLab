@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: black;
+}
+
+#dough-lab {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 3%;
+    transition: 2s;
+}
+
+#dough-lab:hover {
+    position: absolute;
+    height: 30%;
+    left: 3%;
+    filter: hue-rotate(360deg);
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+#links-container {
+    left: 1%;
+    position: absolute;
+    top: 33%;
+    height: auto;
+    width: 60%;
+    border-style: solid;
+    border-color: rgb(155, 0, 179);
+    border-radius: 10px;
+}
+
+.link-container {
+    background-color: blue;
+    display: inline-block;
+    width: 20%;
+    color: white;
+    padding: 3%;
+    margin: 2%;
+    position: relative;
+    transition: 0.7s;
+}
+
+.link-container:hover {
+    background-color: rgb(230, 0, 255);
+    display: inline-block;
+    width: 25%;
+    color: white;
+    padding: 3%;
+    margin: 2%;
+    position: relative;
+    font-size: 125%;
+    transition: 0.7s;
+}
+
+.link-desc {
+    padding: 2%;
+}
+
+#dough-loops {
+    width: 100%;
+    left: 3%;
+    top: 0%;
+    transition: 0.7s;
+    border-radius: 3%;
+}
+
+
+
+
+
+
+
+#socials-container {
+    position: absolute;
+    top: 5%;
+    height: 90%;
+    left: 65%;
+    width: 30%;
+    border-style: solid;
+    border-color: rgb(155, 0, 179);
+    border-radius: 10px;
+    background-color: brown;
+}
+
